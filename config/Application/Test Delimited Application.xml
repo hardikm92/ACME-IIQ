@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Application PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Application connector="sailpoint.connector.DelimitedFileConnector" featuresString="DIRECT_PERMISSIONS, NO_RANDOM_ACCESS, DISCOVER_SCHEMA" icon="enterpriseIcon" name="Test Delimited Application" profileClass="" type="DelimitedFile">
+<Applications connector="sailpoint.connector.DelimitedFileConnector" featuresString="DIRECT_PERMISSIONS, NO_RANDOM_ACCESS, DISCOVER_SCHEMA" icon="enterpriseIcon" name="Test Delimited Application" profileClass="" type="DelimitedFile">
   <Attributes>
     <Map>
       <entry key="compositeDefinition"/>
@@ -96,7 +96,7 @@
                               Logger  logg = Logger.getLogger("com.rules");
  
 
-logg.debug("Inside Something");
+logg.debug("Inside Somethings");
                 // logg.debug(plan.toXml());
  boolean hidden = false;
                 boolean flagCheck=false;
@@ -128,7 +128,7 @@ logg.debug("Inside Something");
                     */
                     if(project!=null)
                     {
-                   // form.getField("Organizationss").setMulti(true);
+                   // form.getField("Organizationsss").setMulti(true);
                     }
                     field.setMulti(true);
  return hidden;
@@ -148,4 +148,4 @@ logg.debug("Inside Something");
       <AttributeDefinition entitlement="true" managed="true" multi="true" name="role" type="string"/>
     </Schema>
   </Schemas>
-</Application>
+</Applications>
