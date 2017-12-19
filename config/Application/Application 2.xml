@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Application PUBLIC "sailpoint.dtd" "sailpoint.dtd">
-<Application connector="sailpoint.connector.DelimitedFileConnector" featuresString="NO_RANDOM_ACCESS, DISCOVER_SCHEMA" icon="enterpriseIcon" name="Application 2" profileClass="" type="DelimitedFile">
+<Application connector="sailpoint.connector.DelimitedFileConnector" featuresString=" DISCOVER_SCHEMA" icon="enterpriseIcon" name="Application 2" profileClass="" type="DelimitedFile">
   <Attributes>
     <Map>
       <entry key="compositeDefinition"/>
