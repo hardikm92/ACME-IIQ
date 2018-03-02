@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/tmp/ACME-IIQ/lib/ant/bin/ant $@
+./lib/ant/bin/ant $@
